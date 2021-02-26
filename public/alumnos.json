@@ -1,0 +1,30 @@
+[
+    {
+        "codigo": 1,
+        "nombre": "Juan",
+        "apellido": "Orozco",
+        "notas": 5,
+        "edad": 20
+    },
+    {
+        "codigo": 2,
+        "nombre": "Camilo",
+        "apellido": "Ramirez",
+        "notas": 5,
+        "edad": 23
+    },
+    {
+        "codigo": 3,
+        "nombre": "Maria",
+        "apellido": "Rodriguez",
+        "notas": 5,
+        "edad": 22
+    },
+    {
+        "codigo": 4,
+        "nombre": "Jenny",
+        "apellido": "Castillo",
+        "notas": 5,
+        "edad": 23
+    }
+]
