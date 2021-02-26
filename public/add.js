@@ -1,15 +1,17 @@
+import fs from 'fs'
+
 const formulario = document.getElementById("alForm");
 var data = [];
 
 formulario.addEventListener("submit", (e) => {
   e.preventDefault();
   sendData();
-  fetch('./alumnos.json')
-  .then(response => response.json())
-  .then(data => {
-      console.log(data)
+  fs.write('./alumnos.json', data, 'utf8', (err) => {
+    if(err){
+      return console.log(err);
+    }
+    console.log("Archivo guardado");
   })
-  .catch(err => console.log(err))
 });
 
 function sendData() {
